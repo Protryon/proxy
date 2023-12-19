@@ -36,11 +36,11 @@ bind(
 #
 
 # Commit date: 2023-11-21
-ENVOY_SHA = "28558ba9b968b8508ceaef38693bea7e9ae11cf5"
+ENVOY_SHA = "e75d3442f104c880d9fde6c6a76e7fcdba1d99c6"
 
-ENVOY_SHA256 = "0993320667102ea1a6ed0cad697b7fe7da956a965647ea9d78f5f1b8b1ca21c4"
+ENVOY_SHA256 = "40ae4d1ed56b7897ddf64780282749d91f84c34e0503debdec5f649ea62ecabc"
 
-ENVOY_ORG = "envoyproxy"
+ENVOY_ORG = "protryon"
 
 ENVOY_REPO = "envoy"
 
