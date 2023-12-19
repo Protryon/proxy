@@ -49,6 +49,9 @@ default:
 shell:
 	@$(RUN) /bin/bash
 
+exec:
+	@$(RUN) /bin/bash -c ${COMMAND}
+
 .PHONY: default shell
 
 else
