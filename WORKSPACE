@@ -34,9 +34,9 @@ bind(
 # 1. Determine SHA256 `wget https://github.com/envoyproxy/envoy/archive/$COMMIT.tar.gz && sha256sum $COMMIT.tar.gz`
 # 2. Update .bazelversion, envoy.bazelrc and .bazelrc if needed.
 #
-ENVOY_SHA = "e75d3442f104c880d9fde6c6a76e7fcdba1d99c6"
+ENVOY_SHA = "1452471e881e813b306aa0fc35ce131c21f976bf"
 
-ENVOY_SHA256 = "40ae4d1ed56b7897ddf64780282749d91f84c34e0503debdec5f649ea62ecabc"
+ENVOY_SHA256 = "186b83cd82d4cd317ef800c0c834f47e5089d07f7cd4b910bbb285a89a0a491e"
 
 ENVOY_ORG = "protryon"
 
