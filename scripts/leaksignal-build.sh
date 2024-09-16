@@ -17,6 +17,6 @@
 set -u
 set -e
 
-CC=clang CXX=clang++ bazel build --config=release  //:envoy
+CC=clang CXX=clang++ bazel build --config=release ${1:-//:envoy}
 
-mv /work/bazel-bin/envoy /work/envoy
+mv /work/bazel-bin/envoy /work/envoy || mv bazel-bin/src/envoy/envoy /work/envoy
